@@ -108,8 +108,8 @@ header {
 .hasEvent::before{
 	content:'•';
 	position:absolute;
-	bottom:-8px;
-	left:16px;
+	bottom:-10px;
+	left:15px;
 	color:var(--blue);
 }
 .hasEvent:hover::before{
