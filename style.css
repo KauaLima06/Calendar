@@ -359,6 +359,9 @@ header {
     left:5px;
     transition:2s;
 }
+.event:hover .inputTime{
+    padding: 0 0 0 10px;
+}
 .event div input , .eventName , .eventDescription {
     padding:0 0 0 15px;
     background-color:rgba(208,208,208, 0.7);
@@ -376,7 +379,7 @@ header {
 }
 .startEvent , .endEvent {
     height:22px;
-    width:100px;
+    width:120px;
 }
 .event:hover .localEvent {
     height:25px;
