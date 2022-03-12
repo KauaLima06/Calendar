@@ -24,10 +24,9 @@ body {
 	flex-direction:column; 
 	padding:10px; 
 	border-radius:10px; 
-	min-width:260px; 
+	min-width:280px; 
 	min-height:300px;
 	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
-	overflow:scroll; 
 	transition:.6s;
 	background-color:#fff;
 }
@@ -321,6 +320,7 @@ header {
 	background:#fff;
 	bottom:-20px;
 	transition:0.5s;
+        overflow: scroll;
 }
 .dayEventList #closeEventList, .dayEventList #deleteAll {
 	display:none;
