@@ -157,7 +157,7 @@ window.addEventListener("load", ()=>{
 			}//for
 		}//if
 		
-		countEvents.innerText = `You have ${countEventsInDay} reminders that day.`;
+		countEvents.innerText = `You have ${countEventsInDay} reminders this day.`;
 	});
 	
 	doneBttn.addEventListener('click', (e)=>{
@@ -188,7 +188,8 @@ window.addEventListener("load", ()=>{
 	closeCreateEvent.addEventListener('click', ()=>{
 		createEventForm.classList.remove('createEventFormOpen');
 		createEventForm.classList.add('createEventForm');
-		
+		countEvents.innerText = `You have ${countEventsInDay} reminders this day.`;
+
 		nameEventInput.value = "";
 		allDayInput.checked = false;
 		startTimeInput.value = "";
