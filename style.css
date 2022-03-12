@@ -123,12 +123,12 @@ header {
     padding:2px;
 }
 #countEvents , #addReminder{
-    display:none;
+    display: flex;
     background:none;
     margin:15px 0;
     height:25px;
     padding:0 0 0 10px;
-    text-align:center;
+    text-align:left;
     color:rgba(0,0,0,0.6);
     font-weight:bolder;
     font-size: 0.9em;
