@@ -321,7 +321,7 @@ header {
 	background:#fff;
 	bottom:-20px;
 	transition:0.5s;
-        overflow: scroll;
+        opacity: 0;
 }
 .dayEventList #closeEventList, .dayEventList #deleteAll {
 	display:none;
