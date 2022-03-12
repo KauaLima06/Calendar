@@ -29,6 +29,7 @@ body {
 	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
 	transition:.6s;
 	background-color:#fff;
+        overflow: hidden;
 }
 header {
 	display:flex;
