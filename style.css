@@ -27,7 +27,6 @@
     min-width:280px; 
     min-height:320px;
     box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
-    overflow:scroll; 
     transition:.6s;
     background-color:#fff;
 }
