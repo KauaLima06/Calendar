@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Calendar</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<button id="todayBttn">Today</button>
+			<div class="navButtons">
+				<button class="navMonthBttn" id="previousBttn" >&lt</button>
+				<h1 id="monthYear">January 2022</h1>
+				<button class="navMonthBttn" id="nextBttn">&gt</button>
+			</div>
+		</header>
+		<main>
+			<table id="table">
+				<thead id="daysOfWeek">
+					<tr>
+						<td translate="no">Sun</td>
+						<td translate="no">Mon</td>
+						<td translate="no">Tue</td>
+						<td translate="no">Wed</td>
+						<td translate="no">Thu</td>
+						<td translate="no">Fri</td>
+						<td translate="no">Sat</td>
+					</tr>
+				</thead>
+				<tbody id="days">
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<div class="dayEventsButtons">
+			<p id="countEvents">You have 0 reminders that day.</p>
+			<button id="addReminder"> + Add Reminder</button>
+			<div>
+				<button id="viewEvents" translate="no">View Events</button>
+				<button id="doneBttn">Done</button>
+			</div>
+		</div>
+		<div class="createEventForm">
+			<button class="closeCreateEvent"><ion-icon name="close"></ion-icon></button>
+			<form>
+				<h1>Create a new Reminder</h1>
+				<div class="nameDiv">
+					<ion-icon name="text-outline"></ion-icon>
+					<input type="text" id="nameEvent" required>
+				</div>
+				<div class="timeDiv">
+					<label for="allDay">All Day</label>
+					<input type="checkbox" id="allDay">
+				</div>
+				<div class="timeDiv">
+					<label for="startTime">Start</label>
+					<input type="time" id="startTime">
+					<ion-icon name="time-outline"></ion-icon>
+				</div>
+				<div class="timeDiv">
+					<label for="endTime">End</label>
+					<input type="time" id="endTime">
+					<ion-icon name="time-outline"></ion-icon>
+				</div>
+				<div class="localDiv">
+					<ion-icon name="location-outline"></ion-icon>
+					<input type="text" id="local">
+				</div>
+				<div class="descriptionDiv">
+					<!--<ion-icon name="reader-outline"></ion-icon>-->
+					<textarea id="description"></textarea>
+				</div>
+				<div class="formBttn">
+					<button type="submit" id="createEventBttn">Create</button>
+					<button type="reset" id="resetEventBttn">Reset</button>
+				</div>
+			</form>
+		</div>
+		<div class="dayEventList">
+			<button id="deleteAll">Delete All</button>
+			<button id="closeEventList"><ion-icon name="close"></ion-icon></button>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="./script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
