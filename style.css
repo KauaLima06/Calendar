@@ -242,7 +242,7 @@ header {
 }
 .timeDiv ion-icon {
     position:absolute;
-    left:45px;
+    left:50px;
 }
 #startTime , #endTime {
     margin:0 0 0 5px;
