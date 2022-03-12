@@ -113,7 +113,7 @@ header {
     display:none;
     flex-direction:column;
     margin:10px 0 0 0;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .dayEvents {
